@@ -31,7 +31,7 @@ function App() {
   ];
 
   return (
-    <div className="container py-5  text-white ">
+    <div className="px-5  py-5  text-white ">
       <h1 id="project"  className="text-4xl font-bold text-center mb-10">
         My Projects
       </h1>
