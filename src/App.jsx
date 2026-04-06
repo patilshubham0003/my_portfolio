@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Media from "./components/Media";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
+import Project from "./components/Project"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Home />
         <About/>
         <Skills/>
+        <Project/>
         <Media/>
       </div>
     </>
