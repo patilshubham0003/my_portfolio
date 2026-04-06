@@ -31,6 +31,9 @@ export default function Navbar() {
             <a href="#skills" className="hover:font-bold hover:text-white-900">
               Skills
             </a>
+            <a href="#project" className="hover:font-bold hover:text-white-900">
+              Projects
+            </a>
             <a
               href="mailto:patilshubham9960423507@gmail.com"
               className="hover:font-bold hover:text-2xl"
@@ -82,6 +85,9 @@ export default function Navbar() {
           </a>
           <a href="#skills" className="block text-white hover:font-bold">
             Skills
+          </a>
+          <a href="#project" className="block text-white hover:font-bold">
+            Projects
           </a>
           <a
             href="mailto:patilshubham9960423507@gmail.com"
