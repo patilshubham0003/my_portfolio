@@ -14,7 +14,7 @@ function App() {
       description:
         "A machine learning project that analyzes Titanic passenger data and predicts survival using classification models.",
       link: "https://github.com/patilshubham0003/Titanic_Passenger_Survival_Analysis",
-      // no live demo
+      live:"https://titanicpassengersurvivalanalysis.streamlit.app/"
     },
     {
       title: "Customer Segmentation",
