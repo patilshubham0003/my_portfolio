@@ -26,7 +26,7 @@ export default function About() {
               actionable insights. With a strong foundation in algorithms,
               statistics, and software engineering, I enjoy converting
               real-world problems into efficient AI solutions. I also have
-              strong knowledge of the MERN stack. Whether developing predictive
+              strong knowledge of the React. Whether developing predictive
               models, working with deep learning architectures, or integrating
               ML systems into production environments, I am always eager to
               learn, experiment, and grow with every project.
