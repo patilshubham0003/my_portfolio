@@ -35,7 +35,7 @@ export default function Navbar() {
               Projects
             </a>
             <a
-              href="mailto:patilshubham9960423507@gmail.com"
+              href="mailto:patilshubham3507@gmail.com"
               className="hover:font-bold hover:text-2xl"
               onMouseEnter={() => setISHover(true)}
               onMouseLeave={() => setISHover(false)}
@@ -90,7 +90,7 @@ export default function Navbar() {
             Projects
           </a>
           <a
-            href="mailto:patilshubham9960423507@gmail.com"
+            href="mailto:patilshubham3507@gmail.com"
             className="block text-white hover:font-bold"
             onMouseEnter={() => setISHover(true)}
             onMouseLeave={() => setISHover(false)}
