@@ -28,6 +28,13 @@ function App() {
         "Built an end-to-end supervised ML pipeline using KNN, Logistic Regression and Naive Bayes to predict loan approval. Implemented Binary classification along with EDA, feature engineering & model evaluation (Precision, Recall, F1).",
       link: "https://github.com/patilshubham0003/Credit_Wise_Loan_System",
       live:"https://credit-wise-loan-system.onrender.com/"
+    },
+    {
+      title: "🤖 AI Chatbot Genai",
+      description:
+        "This project is an AI-powered chatbot built using Streamlit and Google GenAI, leveraging a Large Language Model (LLM) to generate real-time responses to user queries. It provides a simple and interactive web interface where users can ask questions and receive intelligent, human-like answers powered by the Gemini model. The project demonstrates how LLMs can be integrated into web applications with secure API handling and easy deployment",
+      link: "https://github.com/patilshubham0003/ai_chatbot_genai",
+      live:"https://aichatbotgenai-ajmpgucchynw7hf6uvnncs.streamlit.app/"
     }
   ];
 
