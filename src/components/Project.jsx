@@ -30,6 +30,14 @@ function App() {
       live:"https://credit-wise-loan-system.onrender.com/"
     },
     {
+      title: "Chai_Receipt_AI",
+      description:
+        "AI-powered Chai Receipt Generator built with Python and Streamlit. It allows users to enter customer details, select chai items, calculate bills, generate personalized quotes using a Generative AI LLM, and download the generated receipt for a unique customer experience",
+      link: "https://github.com/patilshubham0003/Chai_Receipt_AI",
+      live:"https://chaibillgenerator-cj3sdjdompq6typebzhsgn.streamlit.app/"
+    }
+    ,
+    {
       title: "🤖 AI Chatbot Genai",
       description:
         "This project is an AI-powered chatbot built using Streamlit and Google GenAI, leveraging a Large Language Model (LLM) to generate real-time responses to user queries. It provides a simple and interactive web interface where users can ask questions and receive intelligent, human-like answers powered by the Gemini model. The project demonstrates how LLMs can be integrated into web applications with secure API handling and easy deployment",
