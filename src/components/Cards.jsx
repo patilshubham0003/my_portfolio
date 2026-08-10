@@ -8,7 +8,7 @@ import CardActionArea from '@mui/material/CardActionArea';
 export default function Cards({fa,color,TXT,img,imgSize,skill}){
   let Iproperty= `fa-brands ${fa}  font-bold  text-5xl  ${color}`
   return (
-    <div className='hover:scale-95 active:scale-95 duration-300 '>
+    <div className='active:shadow-[0_0_10px_#fff,0_0_30px_#00ffff,0_0_60px_#00ffff] hover:shadow-[0_0_10px_#fff,0_0_20px_#00ffff,0_0_40px_#00ffff] hover:scale-95 active:scale-95 duration-300 '>
       <Card  sx={{ maxWidth: 345,backgroundColor:"rgb(18, 24, 31)", }}>
       <CardActionArea >
        

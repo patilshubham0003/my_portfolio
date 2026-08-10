@@ -57,10 +57,10 @@ function App() {
           <div key={index} className="relative group w-72">
 
             {/* Glow Effect */}
-            <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 via-purple-500 to-cyan-400 rounded-xl blur opacity-0 group-hover:opacity-80 transition duration-300"></div>
+            <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 via-purple-500 to-cyan-400 rounded-xl blur opacity-0 group-hover:opacity-80 transition duration-300 group-active:opacity-80 transition duration-300"></div>
 
             {/* Card */}
-            <div className="relative bg-gray-900 p-6 rounded-xl h-full shadow-lg transition duration-300 transform group-hover:scale-105 flex flex-col justify-between">
+            <div className="relative bg-gray-900 p-6 rounded-xl h-full shadow-lg transition duration-300 transform group-hover:scale-105 group-active:scale-105  flex flex-col justify-between">
 
               <div>
                 <h2 className="text-xl font-semibold mb-3">
