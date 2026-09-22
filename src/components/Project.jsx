@@ -38,11 +38,18 @@ function App() {
     }
     ,
     {
-      title: "🤖 AI Chatbot Genai",
+      title: "AI Chatbot Genai",
       description:
         "This project is an AI-powered chatbot built using Streamlit and Google GenAI, leveraging a Large Language Model (LLM) to generate real-time responses to user queries. It provides a simple and interactive web interface where users can ask questions and receive intelligent, human-like answers powered by the Gemini model. The project demonstrates how LLMs can be integrated into web applications with secure API handling and easy deployment",
       link: "https://github.com/patilshubham0003/ai_chatbot_genai",
       live:"https://aichatbotgenai-ajmpgucchynw7hf6uvnncs.streamlit.app/"
+    },
+    {
+      title: "Loan Default Prediction System",
+      description:
+        "A Machine Learning system that predicts whether a customer is likely to default on a loan. It analyzes customer and loan-related information to identify potential loan default risk. The project also includes an integrated chatbot to explain the project, features, and prediction process.",
+      link: "https://github.com/patilshubham0003/loan_default_prediction_system",
+      live:"https://loandefaultpredictionsystem-drwt8ma9ktu8euipvrjfzq.streamlit.app/"
     }
   ];
 
