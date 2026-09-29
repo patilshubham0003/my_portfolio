@@ -44,15 +44,15 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="2 pb-5 mx-auto mb-5 sm:mb-5 md:mt-5">
-          <a href="/img">
-            <img
-              src={MyImg2}
-              alt="MyImg2"
-              className="MyImg2  md:mx-auto w-xl rounded-full"
-            />
-          </a>
-        </div>
+      <div className="pb-5 mx-auto mb-5 sm:mb-5 md:mt-5">
+  <a href="/img">
+    <img
+  src={MyImg2}
+  alt="MyImg2"
+  className="mx-auto w-32 sm:w-48 md:w-52 lg:w-96 rounded-full"
+/>
+  </a>
+</div>
       </div>
     </div>
   );
