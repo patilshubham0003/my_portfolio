@@ -2,6 +2,9 @@ import "./Home.css";
 import React from "react";
 import Button from "@mui/material/Button";
 import ContactsIcon from "@mui/icons-material/Contacts";
+import SmartToyIcon from "@mui/icons-material/SmartToy";
+import PsychologyIcon from "@mui/icons-material/Psychology";
+import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 import MyImg2 from "../assets/shubhP.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -15,19 +18,21 @@ export default function Home() {
           <h1 className="text-5xl mt-5  font-bold font-serif">
             I,m <span className="text-blue-400">Shubham</span>
           </h1>
-          <h2 className="text-2xl my-2 mb-4 pb-5 font-bold">
-            A Software Developer
-          </h2>
+          <h2 className="text-2xl my-2 mb-4 pb-5 font-bold">AI/ML Engineer</h2>
           <div className="btn pt-4 mt-4">
-            <a href="#Contact">
-              <Button
-              className=""
-              variant="outlined"
-              startIcon={<ContactsIcon />}
-            >
-              <p className="text-xl font-bold ">Contact</p>
-            </Button>
-            </a>
+            <div className="flex flex-wrap gap-4">
+              <a href="#Contact">
+                <Button variant="outlined" startIcon={<ContactsIcon />}>
+                  <p className="text-xl font-bold">Contact</p>
+                </Button>
+              </a>
+
+              <a href="https://personalaiassistant-wssu8eer7wez9bf6zaycly.streamlit.app/">
+                <Button variant="outlined" startIcon={<SmartToyIcon />}>
+                  <p className="text-xl font-bold">AI_Assistant</p>
+                </Button>
+              </a>
+            </div>
             <div className="mt-10">
               <a
                 href="https://github.com/patilshubham0003"
@@ -44,15 +49,15 @@ export default function Home() {
             </div>
           </div>
         </div>
-      <div className="pb-5 mx-auto mb-5 sm:mb-5 md:mt-5">
-  <a href="/img">
-    <img
-  src={MyImg2}
-  alt="MyImg2"
-  className="mx-auto w-32 sm:w-48 md:w-52 lg:w-96 rounded-full"
-/>
-  </a>
-</div>
+        <div className="pb-5 mx-auto mb-5 sm:mb-5 md:mt-5">
+          <a href="/img">
+            <img
+              src={MyImg2}
+              alt="MyImg2"
+              className="mx-auto w-32 sm:w-48 md:w-52 lg:w-96 rounded-full"
+            />
+          </a>
+        </div>
       </div>
     </div>
   );
