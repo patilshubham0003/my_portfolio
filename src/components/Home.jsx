@@ -49,12 +49,12 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="pb-5 mx-auto mb-5 sm:mb-5 md:mt-7">
+        <div className="pb-5 mx-auto mb-5 sm:mb-5 mt-12 md:mt-8">
           <a href="/img">
             <img
               src={MyImg2}
               alt="MyImg2"
-              className="mx-auto w-52 sm:w-56 md:w-60 mt-7 lg:w-96 rounded-full"
+              className="mx-auto w-52 sm:w-64 md:w-72 mt-9 lg:w-96 rounded-full"
             />
           </a>
         </div>
